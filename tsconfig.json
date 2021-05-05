@@ -1,0 +1,23 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "experimentalDecorators": true,
+
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        "lib": ["dom", "es2017"],
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es2017",
+
+        "jsx": "react",
+        "jsxFactory": "h"
+    },
+}

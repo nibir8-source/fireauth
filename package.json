@@ -1,0 +1,21 @@
+{
+  "name": "stenfire",
+  "version": "1.0.0",
+  "description": "Ionic/Stencil app with firebase",
+  "scripts": {
+    "start": "stencil build --dev --watch --serve",
+    "build": "stencil build",
+    "deploy": "stencil build && firebase use dev && firebase deploy",
+    "deploy-prod": "stencil build && firebase use prod && firebase deploy"
+  },
+  "author": "Nibir",
+  "license": "MIT",
+  "dependencies": {
+    "@ionic/core": "^5.6.4",
+    "firebase": "^8.4.2"
+  },
+  "devDependencies": {
+    "@stencil/core": "^2.5.2",
+    "@stencil/sass": "^1.4.1"
+  }
+}
